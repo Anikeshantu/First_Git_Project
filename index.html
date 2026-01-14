@@ -52,6 +52,10 @@
         h3{
             margin: 10px;
         }
+        .video{
+            border: 2px solid gray;
+            background-color: orange;
+        }
     </style>
 </head>
 
@@ -118,6 +122,7 @@
     <main>
         <h3>audio video iframe tag in html</h3>
         <div class="audio">
+            <p>Click on the play button to play a sound:</p>
 
             <audio controls>
 
@@ -125,6 +130,14 @@
 
             </audio>
 
+        </div>
+
+        <div class="video" >
+            <p>Click on the play button to play video:</p>
+
+            <video controls height="250" width="300">
+                <source src="media/video.mp4.mp4" type="video/mp4" >
+            </video>
         </div>
     </main>
 </body>
